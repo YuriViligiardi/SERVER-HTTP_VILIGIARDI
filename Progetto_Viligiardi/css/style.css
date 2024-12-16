@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.logo {
+    width: 60px;
+    height: 50px;
+}
+.logo-ktm{
+    width: 80px;
+    height: 80px;
+}
+.logo-social{
+    width: 40px;
+    height: 40px;
+}
+.immagine-carousel{
+    height: 100vmin;
+}
+.colore-arancione{
+    color: orange;
+}
+.bottone-ktm{
+    border: 1;
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    padding: 20px;
+}
+.bottone-ktm:hover{
+    background-color: transparent;
+    color: orange;
+}
+.bottone-hsq{
+    border: 1;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    padding: 20px;
+}
+.bottone-hsq:hover{
+    background-color: transparent;
+    color: blue;
+}
+.bottone-ducati{
+    border: 1;
+    background-color: red;
+    border-color: red;
+    color: white;
+    padding: 20px;
+}
+.bottone-ducati:hover{
+    background-color: transparent;
+    color: red;
+}
+.immagine-card-home{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.info-card-home{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 80%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.info-card-home:hover{
+    opacity: 1;
+}
+.titolo-card-home{
+    color: white;
+    text-align: center;
+}
+.testo-card-home{
+    color: white;
+    text-align: center;
+    
+}
+.freccia-carousel{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.freccia-carousel:hover{
+    background-color: orange;
+}
+/* .titoli-home{
+    font-family: 'Alfa Slab One', cursive;
+} */
+.titoli-abbigliamento{
+    font-family: 'Lobster', cursive;
+}
+.titoli-card-home{
+    font-family: 'Lobster', cursive;
+}
+.titolo-div-finale{
+    font-family: 'Pacifico', cursive;
+}
